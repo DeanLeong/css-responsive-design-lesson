@@ -17,32 +17,20 @@ During this lesson, we're going to touch on:
 
 ### CSS Selectors & Specificity
 
-Selectors (ie........)
+Remember the different types of selectors?
 
+1. Simple Selectors (ie: `div`, `.class`, or `#id` names)
+1. Pseudo Class Selectors (ie: `link:hover`, `input:required`, `input:not(required)`)
+1. Pseudo Element Selectors (ie: 
+1. Combinator (Descendant, Child, Sibling) Selectors (ie: `div > p`)
 
-
-
-
-Specificity will override cascading.
-
-
-
-
-
+Specificity
 
 ### Organizing Your Stylesheet
 
-Personal Preferences (alphabet, specificity, pseudo, media queries, single global sheet versus component based )
+Personal Preferences (Alphabetic? By specificity? What about pseudo classes and media queries? A single global sheet or multiple sheets? Component styling?)
 
-
-
-
-
-Never, never, never repeat a selector (except for media queries)
-
-
-
-
+Never, never, never repeat the same selector with the same specificity. (Media queries take a higher specificity, so of course that's allowed.)
 
 ***
 
