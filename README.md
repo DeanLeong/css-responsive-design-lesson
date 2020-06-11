@@ -1,31 +1,5 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Responsive CSS Design
 
-- [! Responsive CSS Design](#img-srchttpsga-dashs3amazonawscomproductionassetslogo-9f88ae6c9c3871690e33280fcf557f33png-alt-Responsive-CSS-Design)
-  - [LEARNING OBJECTIVES](#LEARNING-OBJECTIVES)
-  - [Contextual Review](#Contextual-Review)
-    - [CSS Selectors & Specificity](#CSS-Selectors--Specificity)
-    - [Organizing Your Stylesheet](#Organizing-Your-Stylesheet)
-  - [Introduction](#Introduction)
-  - [CSS Units](#CSS-Units)
-    - [Absolute Values](#Absolute-Values)
-    - [Relative Values](#Relative-Values)
-    - [Calculated Values](#Calculated-Values)
-    - [Extremely Rare Values](#Extremely-Rare-Values)
-      - [Resolution & Pixel-Density Values](#Resolution--Pixel-Density-Values)
-      - [`var` Values](#var-Values)
-      - [`rhythm` Values](#rhythm-Values)
-    - [The `!important` Exception](#The-important-Exception)
-  - [Media Queries](#Media-Queries)
-    - [Common Resolutions](#Common-Resolutions)
-    - [Breakpoints](#Breakpoints)
-    - [Responsive Developer Tools](#Responsive-Developer-Tools)
-  - [Common Breakpoints](#Common-Breakpoints)
-  - [Troubleshooting Responsiveness with Dev Tools](#Troubleshooting-Responsiveness-with-Dev-Tools)
-  - [Self-Directed Learning](#Self-Directed-Learning)
-    - [Videos](#Videos)
-    - [Readings](#Readings)
-
-***
 
 ## LEARNING OBJECTIVES
 
