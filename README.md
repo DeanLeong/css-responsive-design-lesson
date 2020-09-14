@@ -450,6 +450,7 @@ Here's the thing: CSS is frustrating. Very frustrating.
 
 <br>
 
+It's difficult and frustrating, but in time you'll enjoy it more and appreciate it for it's complexity!
 
 ***
 
