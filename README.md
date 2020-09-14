@@ -20,17 +20,15 @@ During this lesson, we're going to touch on:
 Remember the different types of selectors?
 
 1. Simple Selectors (ie: `div`, `.class`, or `#id` names)
-1. Pseudo Class Selectors (ie: `link:hover`, `input:required`, `input:not(required)`)
-1. Pseudo Element Selectors (ie: 
-1. Combinator (Descendant, Child, Sibling) Selectors (ie: `div > p`)
-
-Specificity
+1. Pseudo Class Selectors (`selector:pseudo-class`, ie: `button:hover` or `input:required`)
+1. Pseudo Element Selectors (`selector::pseudo-element`, ie: `p::first-letter` or  `p::after`
+1. Combinator Selectors (Multi, Descendant, Child, Adjacent Sibling, General Sibling) (ie: `,`, ` `, `>`, `+`, `~`)
 
 ### Organizing Your Stylesheet
 
-Personal Preferences (Alphabetic? By specificity? What about pseudo classes and media queries? A single global sheet or multiple sheets? Component styling?)
+Organizing a global stylesheet often comes down to personal preferences. (Alphabetic? By specificity? What about pseudo classes and media queries? A single global sheet or multiple sheets? Component-based styling?)
 
-Never, never, never repeat the same selector with the same specificity. (Media queries take a higher specificity, so of course that's allowed.)
+Organizaton can be particularly important when you have thousands of lines– but one quick note: Never, never repeat the same selector with the same specificity. (Media queries take a higher specificity, so of course that's allowed.)
 
 ***
 
@@ -66,9 +64,7 @@ A responsive site doesn't just look good on the _newest_ phone, watch, tablet, o
 
 <br>
 
-As you begin understanding the sheer scope of effective and comprehensive stylesheets, you may feel a little intimidated, but don't worry.
-
-All that's required is understanding all the tools available to you and some advanced planning for your stylesheets.
+As you begin understanding the sheer scope of effective and comprehensive stylesheets, you may feel a little intimidated, but don't worry. All that's required is understanding all the tools available to you and some advanced planning for your stylesheets.
 
 Let's dive in!
 
@@ -156,7 +152,7 @@ Occasionally, you may see calculated values in use:
 | value | example                      |
 | :---: | :--------------------------- |
 | auto  | `margin: 0 auto`             |
-| calc  | `height: calc(100vh - 50px)` |
+| calc  | `height: calc(100vh - 100px)` |
 
 <br>
 
@@ -180,7 +176,7 @@ Again, this would be great if your 100px header was _always_ exactly 8% of your 
 
 <br>
 
-### Extremely Rare Values
+### Rare Values
 
 #### Resolution & Pixel-Density Values
 
@@ -293,6 +289,14 @@ Let's think about some common resolutions in use, using Apple devices:
 | MacBook Pro 13"                |         | 1280px |  800px  |    113 PPI    |
 | MacBook 12" (Retina)           |         | 2304px | 1440px  |    226 PPI    |
 | MacBook Air 11"                |         | 1366px |  768px  |    135 PPI    |
+| iPad Pro 13"                   | Tablet  | 2732px | 2048px  |    264 PPI    |
+| iPad Pro 11"                   |         | 2338px | 1668px  |    264 PPI    |
+| iPhone 11 Pro Max              | Mobile  | 2688px | 1242px  |    458 PPI    |
+| iPhone 11 Pro                  |         | 2436px | 1125px  |    458 PPI    |
+| iPhone 7+                      |         | 1920px | 1080px  |    401 PPI    |
+| iPhone 7                       |         | 2688px | 1242px  |    326 PPI    |
+| iPhone 3                       |         |  480px |  320px  |    163 PPI    |
+
 
 <br>
 
@@ -324,20 +328,20 @@ If you see an unintended or unacceptable change occur in the design or layout, y
 
 ## Common Breakpoints
 
-Extra small devices (phones, 600px and down):
-`@media only screen and (max-width: 600px) {...}`
-
-Small devices (portrait tablets and large phones, 600px and up)
-`@media only screen and (min-width: 600px) {...}`
-
-Medium devices (landscape tablets, 768px and up)
-`@media only screen and (min-width: 768px) {...}`
+Extra large devices (large laptops and desktops, 1200px and up)
+`@media only screen and (min-width: 1200px) {...}`
 
 Large devices (laptops/desktops, 992px and up)
 `@media only screen and (min-width: 992px) {...}`
 
-Extra large devices (large laptops and desktops, 1200px and up)
-`@media only screen and (min-width: 1200px) {...}`
+Medium devices (landscape tablets, 768px and up)
+`@media only screen and (min-width: 768px) {...}`
+
+Small devices (portrait tablets and newer/larger phones, 600px and up)
+`@media only screen and (min-width: 600px) {...}`
+
+Extra small devices (phones, 600px and down):
+`@media only screen and (max-width: 600px) {...}`
 
 <br>
 
