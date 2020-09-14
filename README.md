@@ -149,9 +149,9 @@ Because of the extreme variability in screen sizes, when we're trying to design 
 
 Occasionally, you may see calculated values in use:
 
-| value | example                      |
-| :---: | :--------------------------- |
-| auto  | `margin: 0 auto`             |
+| value | example                       |
+| :---: | :---------------------------- |
+| auto  | `margin: 0 auto`              |
 | calc  | `height: calc(100vh - 100px)` |
 
 <br>
@@ -295,14 +295,14 @@ Let's think about some common resolutions in use, using Apple devices:
 | iPhone 11 Pro                  |         | 2436px | 1125px  |    458 PPI    |
 | iPhone 7+                      |         | 1920px | 1080px  |    401 PPI    |
 | iPhone 7                       |         | 2688px | 1242px  |    326 PPI    |
-| iPhone 3                       |         |  480px |  320px  |    163 PPI    |
+| iPhone 3                       |         | 480px  |  320px  |    163 PPI    |
 
 
 <br>
 
 And don't forget the market share of website visitors worldwide by device type:
 
-<div id="desktop+mobile+tablet-comparison-ww-monthly-201905-202005" width="600" height="400" style="width:600px; height: 400px;"></div><p>Source: <a href="https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet">StatCounter Global Stats - Platform Comparison Market Share</a></p><script type="text/javascript" src="https://www.statcounter.com/js/fusioncharts.js"></script><script type="text/javascript" src="https://gs.statcounter.com/chart.php?desktop+mobile+tablet-comparison-ww-monthly-201905-202005&chartWidth=600"></script>
+<p><a href="https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet">StatCounter Global Stats - Platform Comparison Market Share</a></p>
 
 <br>
 
@@ -428,7 +428,7 @@ Here's the thing: CSS is frustrating. Very frustrating.
 
 <p align="center">
 
-  ![pokemon](/assets/pickachu2.png)
+  ![pokemon](/assets/pikachu2.png)
   
 </p>
 
